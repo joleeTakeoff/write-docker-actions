@@ -18,5 +18,5 @@ jobs:
         uses: ./.github/actions/issue-maker
         with:
           repoToken: ${{secrets.GITHUB_TOKEN}}
-          catFact: ${{steps.cat.outputs.fact}}
+          catFact: 'cats are cute'
           issueTitle: "a cat fact for you"
